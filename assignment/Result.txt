@@ -1,0 +1,142 @@
+*****************************************************************************
+****Execution of Program at 10.25PM on Tuesday 08 December 2020**************
+*****************************************************************************
+
+
+You have selected : G
+
+
+####################################################################################################
+##################           General analysis for Airbnb Properties             ####################
+####################################################################################################
+
+Number of Airbnb property in the provided file : 1000
+Number of Airbnb property which is missing price : 0
+Number of Airbnb property which is missing rating : 35
+Most expensive Airbnb property : $ 975.00
+Least expensive Airbnb property : $ 17.00
+Highest Rated of Airbnb property : 100
+Lowest Rated of Airbnb property : 50
+Maximum people can stay in Airbnb property : 16
+Minimum people can stay in Airbnb property  : 1
+Maximum bedrooms in Airbnb property : 23
+Minimum bedrooms in Airbnb property  : 0
+General analysis for Airbnb Properties.png is saved in working directory.
+
+####################################################################################################
+
+You have selected : P
+
+
+####################################################################################################
+##################        Analysis of the prices for Airbnb Properties          ####################
+####################################################################################################
+
+Number of price entry : 1000
+Highest price of Airbnb property : $ 975.00
+Lower price of Airbnb property : $ 17.00
+Mean/Average price of Airbnb property : $111.37
+Median of the prices of Airbnb property is: $81.00
+Mode of the prices of Airbnb property is : [50.0, 60.0]
+Range of the prices of Airbnb property is : 958.0
+Standard Deviation for prices of Airbnb property is: 107.76 
+
+####################################################################################################
+
+You have selected : R
+
+
+####################################################################################################
+##################        Analysis of the Ratings for Airbnb Properties         ####################
+####################################################################################################
+
+Number of review entry : 1000
+Highest Rated of Airbnb property : 100
+Lowest Rated of Airbnb property : 50
+Mean/Average Rating for Airbnb property : 93.79
+Median of the rating for Airbnb property : 96.00
+Mode of the rating for Airbnb property : [98]
+Range of the rating of Airbnb property is : 50
+Standard Deviation for rating for Airbnb property : 9.48
+
+####################################################################################################
+
+You have selected : B
+
+
+####################################################################################################
+##################      Analysis of number of bedrooms in Airbnb Properties     ####################
+####################################################################################################
+
+Number of bedroom entry in Airbnb Properties : 1000
+Maximum bedrooms in Airbnb property : 23
+Minimum bedrooms in Airbnb property  : 0
+Mean/Average number of bedroom in Airbnb property : 2.08
+Median number of bedroom in Airbnb property is: 1.00
+Mode number of bedroom in Airbnb property is : [1]
+Range of number of bedroom in Airbnb property is : 23
+Standard Deviation for prices of Airbnb property is: 1.65 
+
+####################################################################################################
+
+You have selected : A
+
+
+####################################################################################################
+##################  Analysis of num of people accomodate in Airbnb Properties   ####################
+####################################################################################################
+
+Number of people accomodate entry in Airbnb Properties : 1000
+Maximum people can stay in Airbnb property : 16
+Minimum people can stay in Airbnb property  : 1
+Mean/Average number of people in Airbnb property : 4.56
+Median number of people in Airbnb property is: 4.00
+Mode number of people in Airbnb property is : [2]
+Range of number of people in Airbnb property is : 15
+Standard Deviation for number of people of Airbnb property is: 3.28 
+
+####################################################################################################
+
+You have selected : C
+
+
+####################################################################################################
+##################       Correlation between Price and Rating for Airbnb        ####################
+####################################################################################################
+
+The relationship between price and rating is Weak.
+Number of price entry: 1000
+Number of review_score entry: 1000
+Correlation between price and rating: 0.36
+
+####################################################################################################
+##################   Correlation between Rating and Total Rating for Airbnb     ####################
+####################################################################################################
+
+The relationship between rating and total number of rating is Very Weak.
+Correlation between price and rating: -0.01
+
+####################################################################################################
+##################  Correlation between Bedroom and Accomodation for Airbnb     ####################
+####################################################################################################
+
+The relationship between bedroom and accomodation is Strong.
+Correlation between bedroom and accomodation: 0.92
+
+####################################################################################################
+##################      Correlation between Price and Bedrooms for Airbnb       ####################
+####################################################################################################
+
+The relationship between price and bedroom is Strong.
+Correlation between price and bedroom: 0.92
+Correlation between Price, Ratings and Total Number Of Review for Airbnb Properties.png is saved in working directory.
+
+####################################################################################################
+
+You have selected : ggsg
+
+Invalid Input. Please enter the a valid input or Q/q to quit.
+You have selected : Q
+
+Thanks for using this application. 
+All output, which are dispalyed in console, are saved in Result.txt file.

@@ -1,0 +1,136 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html><head><title>Python: module plot_utils</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+</head><body bgcolor="#f0f0f8">
+
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="heading">
+<tr bgcolor="#7799ee">
+<td valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial">&nbsp;<br><big><big><strong>plot_utils</strong></big></big></font></td
+><td align=right valign=bottom
+><font color="#ffffff" face="helvetica, arial"><a href=".">index</a><br><a href="file:c%3A%5Cusers%5Cemehsau%5Cdesktop%5Csaurav%5Cait%5Cpython%5Cpart%20iii%5Cairbnbdataanalysis%5Cassignment%5Clib%5Cplot_utils.py">c:\users\emehsau\desktop\saurav\ait\python\part iii\airbnbdataanalysis\assignment\lib\plot_utils.py</a></font></td></tr></table>
+    <p><tt>Utlity&nbsp;module&nbsp;for&nbsp;drawing&nbsp;different&nbsp;type&nbsp;of&nbsp;charts/graph.<br>
+&nbsp;<br>
+@Author:&nbsp;A00288443</tt></p>
+<p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#aa55cc">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Modules</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#aa55cc"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><table width="100%" summary="list"><tr><td width="25%" valign=top><a href="matplotlib.pyplot.html">matplotlib.pyplot</a><br>
+</td><td width="25%" valign=top></td><td width="25%" valign=top></td><td width="25%" valign=top></td></tr></table></td></tr></table><p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#eeaa77">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Functions</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#eeaa77"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><dl><dt><a name="-drawBoxplot"><strong>drawBoxplot</strong></a>(ax, title, ylabel, data)</dt><dd><tt>To&nbsp;draw&nbsp;a&nbsp;boxplot&nbsp;in&nbsp;the&nbsp;provided&nbsp;Axes.<br>
+&nbsp;<br>
+Parameters<br>
+----------<br>
+ax&nbsp;:&nbsp;`.axes.Axes`&nbsp;object&nbsp;or&nbsp;array&nbsp;of&nbsp;Axes&nbsp;objects.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;A&nbsp;single&nbsp;`~matplotlib.axes.Axes`&nbsp;object.<br>
+title&nbsp;:&nbsp;str<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Title&nbsp;for&nbsp;the&nbsp;axes.<br>
+ylabel&nbsp;:&nbsp;str<br>
+&nbsp;&nbsp;&nbsp;&nbsp;Label&nbsp;for&nbsp;y&nbsp;axis.<br>
+data&nbsp;:&nbsp;list<br>
+&nbsp;&nbsp;&nbsp;&nbsp;A&nbsp;list&nbsp;of&nbsp;data.<br>
+&nbsp;<br>
+Returns<br>
+-------<br>
+None.</tt></dd></dl>
+ <dl><dt><a name="-drawHistogram"><strong>drawHistogram</strong></a>(ax, title, xlabel, ylabel, xdata, ydata)</dt><dd><tt>To&nbsp;draw&nbsp;a&nbsp;histogram&nbsp;in&nbsp;the&nbsp;provided&nbsp;axes.<br>
+&nbsp;<br>
+Parameters<br>
+----------<br>
+ax&nbsp;:&nbsp;`.axes.Axes`&nbsp;object&nbsp;or&nbsp;array&nbsp;of&nbsp;Axes&nbsp;objects.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;A&nbsp;single&nbsp;`~matplotlib.axes.Axes`&nbsp;object.<br>
+title&nbsp;:&nbsp;str<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Title&nbsp;for&nbsp;the&nbsp;axes.<br>
+xlabel&nbsp;:&nbsp;str<br>
+&nbsp;&nbsp;&nbsp;&nbsp;Label&nbsp;for&nbsp;x&nbsp;axis.<br>
+ylabel&nbsp;:&nbsp;string<br>
+&nbsp;&nbsp;&nbsp;&nbsp;Label&nbsp;for&nbsp;y&nbsp;axis.<br>
+xdata&nbsp;:&nbsp;list<br>
+&nbsp;&nbsp;&nbsp;&nbsp;list&nbsp;of&nbsp;data&nbsp;for&nbsp;x&nbsp;axis.<br>
+ydata&nbsp;:&nbsp;list<br>
+&nbsp;&nbsp;&nbsp;&nbsp;list&nbsp;of&nbsp;data&nbsp;for&nbsp;y&nbsp;axix.<br>
+&nbsp;<br>
+Returns<br>
+-------<br>
+None.</tt></dd></dl>
+ <dl><dt><a name="-drawHorizontalBar"><strong>drawHorizontalBar</strong></a>(ax, title, xlabel, ylabel, data)</dt><dd><tt>To&nbsp;draw&nbsp;horizontal&nbsp;bar&nbsp;in&nbsp;the&nbsp;provided&nbsp;Axes.<br>
+&nbsp;<br>
+Parameters<br>
+----------<br>
+ax&nbsp;:&nbsp;`.axes.Axes`&nbsp;object&nbsp;or&nbsp;array&nbsp;of&nbsp;Axes&nbsp;objects.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;A&nbsp;single&nbsp;`~matplotlib.axes.Axes`&nbsp;object.<br>
+title&nbsp;:&nbsp;str<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Title&nbsp;for&nbsp;the&nbsp;axes.<br>
+xlabel&nbsp;:&nbsp;str<br>
+&nbsp;&nbsp;&nbsp;&nbsp;Label&nbsp;for&nbsp;x&nbsp;axis.<br>
+ylabel&nbsp;:&nbsp;str<br>
+&nbsp;&nbsp;&nbsp;&nbsp;Label&nbsp;for&nbsp;y&nbsp;axis.<br>
+data&nbsp;:&nbsp;dict<br>
+&nbsp;&nbsp;&nbsp;&nbsp;A&nbsp;dict&nbsp;containing&nbsp;key&nbsp;and&nbsp;value&nbsp;which&nbsp;will&nbsp;be&nbsp;represented<br>
+&nbsp;&nbsp;&nbsp;&nbsp;in&nbsp;horizontal&nbsp;bar.<br>
+&nbsp;<br>
+Returns<br>
+-------<br>
+None.</tt></dd></dl>
+ <dl><dt><a name="-drawPieChart"><strong>drawPieChart</strong></a>(ax, title, data)</dt><dd><tt>To&nbsp;draw&nbsp;a&nbsp;piechart&nbsp;for&nbsp;given&nbsp;dict&nbsp;in&nbsp;the&nbsp;provided&nbsp;Axes.<br>
+&nbsp;<br>
+Parameters<br>
+----------<br>
+ax&nbsp;:&nbsp;`.axes.Axes`&nbsp;object&nbsp;or&nbsp;array&nbsp;of&nbsp;Axes&nbsp;objects.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;A&nbsp;single&nbsp;`~matplotlib.axes.Axes`&nbsp;object.<br>
+title&nbsp;:&nbsp;str<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Title&nbsp;for&nbsp;the&nbsp;axes..<br>
+data&nbsp;:&nbsp;dict<br>
+&nbsp;&nbsp;&nbsp;&nbsp;A&nbsp;dict&nbsp;containing&nbsp;key&nbsp;and&nbsp;value&nbsp;which&nbsp;will&nbsp;be&nbsp;represented&nbsp;in&nbsp;PieChart.<br>
+&nbsp;<br>
+Returns<br>
+-------<br>
+None.</tt></dd></dl>
+ <dl><dt><a name="-drawScatterGraph"><strong>drawScatterGraph</strong></a>(ax, title, xlabel, ylabel, xdata, ydata)</dt><dd><tt>To&nbsp;draw&nbsp;a&nbsp;scatter&nbsp;graph&nbsp;of&nbsp;two&nbsp;list&nbsp;in&nbsp;the&nbsp;provided&nbsp;Axes.<br>
+&nbsp;<br>
+Parameters<br>
+----------<br>
+ax&nbsp;:&nbsp;`.axes.Axes`&nbsp;object&nbsp;or&nbsp;array&nbsp;of&nbsp;Axes&nbsp;objects.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;A&nbsp;single&nbsp;`~matplotlib.axes.Axes`&nbsp;object.<br>
+title&nbsp;:&nbsp;str<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Title&nbsp;for&nbsp;the&nbsp;axes.<br>
+xlabel&nbsp;:&nbsp;str<br>
+&nbsp;&nbsp;&nbsp;&nbsp;Label&nbsp;for&nbsp;x&nbsp;axis.<br>
+ylabel&nbsp;:&nbsp;str<br>
+&nbsp;&nbsp;&nbsp;&nbsp;Label&nbsp;for&nbsp;y&nbsp;axis.<br>
+xdata&nbsp;:&nbsp;list<br>
+&nbsp;&nbsp;&nbsp;&nbsp;list&nbsp;of&nbsp;data&nbsp;for&nbsp;x&nbsp;axix.<br>
+ydata&nbsp;:&nbsp;list<br>
+&nbsp;&nbsp;&nbsp;&nbsp;list&nbsp;of&nbsp;data&nbsp;for&nbsp;y&nbsp;axix..<br>
+&nbsp;<br>
+Returns<br>
+-------<br>
+None.</tt></dd></dl>
+ <dl><dt><a name="-getFigureAndAxes"><strong>getFigureAndAxes</strong></a>(number_row, number_column)</dt><dd><tt>To&nbsp;create&nbsp;a&nbsp;figure&nbsp;and&nbsp;a&nbsp;set&nbsp;of&nbsp;subplots.<br>
+&nbsp;<br>
+Parameters<br>
+----------<br>
+number_row&nbsp;:&nbsp;int<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Number&nbsp;of&nbsp;rows&nbsp;of&nbsp;the&nbsp;subplot&nbsp;grid.<br>
+number_column&nbsp;:&nbsp;int<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Number&nbsp;of&nbsp;columns&nbsp;of&nbsp;the&nbsp;subplot&nbsp;grid.<br>
+&nbsp;<br>
+Returns<br>
+-------<br>
+fig&nbsp;:&nbsp;`~.figure.Figure`<br>
+&nbsp;&nbsp;&nbsp;&nbsp;DESCRIPTION.<br>
+ax&nbsp;:&nbsp;`.axes.Axes`&nbsp;object&nbsp;or&nbsp;array&nbsp;of&nbsp;Axes&nbsp;objects.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;*ax*&nbsp;can&nbsp;be&nbsp;either&nbsp;a&nbsp;single&nbsp;`~matplotlib.axes.Axes`&nbsp;object&nbsp;or&nbsp;an<br>
+&nbsp;&nbsp;&nbsp;&nbsp;array&nbsp;of&nbsp;Axes&nbsp;objects&nbsp;if&nbsp;more&nbsp;than&nbsp;one&nbsp;subplot&nbsp;was&nbsp;created..</tt></dd></dl>
+</td></tr></table>
+</body></html>
